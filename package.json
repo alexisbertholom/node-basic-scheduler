@@ -1,0 +1,26 @@
+{
+  "name": "node-basic-scheduler",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Alexis Bertholom",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisbertholom/node-basic-scheduler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexisbertholom/node-basic-scheduler/issues"
+  },
+  "homepage": "https://github.com/alexisbertholom/node-basic-scheduler#readme",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build dist",
+    "dist": "npm run clean && tsc --declaration --outDir dist"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "typescript": "^2.4.1"
+  }
+}
